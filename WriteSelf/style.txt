@@ -1,0 +1,162 @@
+/**
+ * Oh hello there! My name is Charlie.
+ *
+ * I'd like to know your name too but I'm not sure how to do that right now.
+ *
+ * I did make this chill website that codes itself for you. Check it out!
+ */ 
+
+span{
+  color: rgb(33, 238, 89);
+}
+
+ /*
+  * Let's slow down these changes.
+  */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+html{
+  background-color: rgb(42, 48, 44);
+}
+
+pre {
+  background: black;	
+  overflow: auto;
+  padding: 15px 15px 25px;  
+  border: 1px solid rgb(150, 150, 150);
+  max-height: 90%;
+  width: 47%;
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+pre:hover{
+	border-radius: 25%;
+}
+
+/*
+ * Try putting your mouse over this text!
+ */
+
+/**
+ * How about a new font.
+ */
+
+span{
+  font-size: 85%;  
+  font-family: 'Overpass Mono', monospace;
+  color: #EFEFEF;
+}
+
+/*
+ * I know what will make this website amazing. More colors!
+ */
+
+.select{
+  color: #4717f6;
+}
+
+.value{
+  color: white;
+  font-size: 90%;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.elem{
+  color: red;
+}
+
+.comment{
+  color: #bababa;
+  font-style: italic;
+}
+
+
+/*
+ * That's kinda twilight-y huh.
+ */
+
+html{
+  background: red;  
+}
+
+body{
+  background-image: url("twilight.jpg");
+}
+
+/*
+ * "The right thing isn't always real obvious. 
+ * So good luck figuring that out." 
+ *
+ * - Stephenie Meyer, Twilight 
+ *
+ * Thanks for the design advice Steph.
+ * This is definitely not the right thing.
+ * 
+ */
+
+html{
+  background: #1D2731;  
+}
+
+body{
+  background-image: none;
+}
+
+pre{
+  background: #1D2731;
+  max-height: 45%;
+}
+
+.select{
+  color: #DA7510;
+}
+
+.elem{
+  color: #329CC1;
+}
+
+.comment{
+  color: #9c9c99;
+}
+
+.value{
+  color: #D9B310;
+}
+
+.pre{
+  left: 48%;
+}
+
+pre {
+   -webkit-transform: translateX(95%);
+   position: absolute;
+ }
+ 
+ body {
+   -webkit-perspective: 1000px;
+ }
+ 
+ pre {
+   -webkit-transform: translateX(98.5%) rotateY(-50deg);
+   -webkit-transform-origin: right;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
