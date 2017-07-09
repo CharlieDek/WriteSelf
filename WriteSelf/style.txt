@@ -18,59 +18,57 @@ span{
   -webkit-transition: all 1s;
 }
 
-html{
-  background-color: rgb(42, 48, 44);
+ /* 
+  * What needs changing?
+  */
+
+html {
+  background-color: rgb(42, 48, 44);    
+  font-size: 85%;  
+  font-family: 'Overpass Mono', monospace;
+  color: rgb(239, 239, 239);  
 }
 
 pre {
   background: black;	
   overflow: auto;
+  max-height: 85%;  
   padding: 15px 15px 25px;  
   border: 1px solid rgb(150, 150, 150);
-  max-height: 90%;
   width: 47%;
   white-space: pre-wrap;
   outline: 0;
 }
 
-pre:hover{
-	border-radius: 25%;
-}
-
 /*
- * Try putting your mouse over this text!
+ * Now let's make the text box ~wiggly~ when you scroll 
+ * over the text.
  */
 
-/**
- * How about a new font.
- */
-
-span{
-  font-size: 85%;  
-  font-family: 'Overpass Mono', monospace;
-  color: #EFEFEF;
+pre:hover {
+	border-radius: 15%;
 }
 
 /*
  * I know what will make this website amazing. More colors!
  */
 
-.select{
-  color: #4717f6;
+.select {
+  color: rgb(71, 23, 246);
 }
 
-.value{
+.value {
   color: white;
   font-size: 90%;
   font-family: 'Overpass Mono', monospace;
 }
 
-.elem{
+.elem {
   color: red;
 }
 
-.comment{
-  color: #bababa;
+.comment {
+  color: rgb(186, 186, 186);
   font-style: italic;
 }
 
@@ -79,11 +77,11 @@ span{
  * That's kinda twilight-y huh.
  */
 
-html{
+html {
   background: red;  
 }
 
-body{
+body {
   background-image: url("twilight.jpg");
 }
 
@@ -98,52 +96,57 @@ body{
  * 
  */
 
-html{
-  background: #1D2731;  
+html {
+  background: rgb(29, 39, 49);  
 }
 
-body{
+body {
   background-image: none;
 }
 
-pre{
-  background: #1D2731;
+pre {
+  background: rgb(29, 39, 49);
   max-height: 45%;
 }
 
-.select{
-  color: #DA7510;
+.select {
+  color: rgb(218, 117, 16);
 }
 
-.elem{
-  color: #329CC1;
+.elem {
+  color: rgb(50, 156, 193);
 }
 
-.comment{
-  color: #9c9c99;
+.comment {
+  color: rgb(156, 156, 153);
 }
 
-.value{
-  color: #D9B310;
+.value {
+  color: rgb(217, 179, 16);
 }
 
-.pre{
+.pre {
   left: 48%;
 }
 
-pre {
-   -webkit-transform: translateX(95%);
-   position: absolute;
- }
- 
- body {
+body {
    -webkit-perspective: 1000px;
- }
+}
+
+/* 
+ * Charlie's website, produced by Lucasfilm
+ */
  
- pre {
-   -webkit-transform: translateX(98.5%) rotateY(-50deg);
+pre {
+   -webkit-transform: translateY(-10%) translateX(10%) rotateX(20deg);
    -webkit-transform-origin: right;
- }
+   max-height: 90%;
+   width: 75%;
+}
+
+/*
+ * Looking good!
+ */
 
 
 
@@ -157,6 +160,138 @@ pre {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ * Well that's the gist for today, I hope you
+ * enjoyed watching this website.
+ *
+ * Big thanks to Samuel Reed and Jake Albaugh
+ * for the idea to code a website like this.
+ * 
+ * Find more about me at charlie.dektar.com!
+ */
+
+.comment {
+  color: rgb(175, 38, 75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_______________________________█████_____█████
+______________________________███____██_██_____███
+_____________________________██________██__________██
+____________________________██__________█____________██
+________██████____________██________________________██
+_____███████████________██________________________██
+____█████████████_______██_______________________██
+___███████████████______██______________________██
+___████████████████______██___________________██
+___████████████████_______██_________________██
+____███████████████_______███_______________██
+_______███████████_______██__██____________██
+___________███████______████___██________██
+____██████__██████████████_____██_____██
+__██████████████████████________██__██
+_████████████████████_____________████
+██_█████_████████████_______________█
+█__█_██__████████████
+_____█__████████████
+_______█████████████
+_______██████████████
+_______███████████████
+________███████████████
+_______███████__████████
+______███████_____███████
+____█████████________██████
 
 
 

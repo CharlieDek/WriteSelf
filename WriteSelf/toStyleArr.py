@@ -1,5 +1,6 @@
 
 
+#this simple code formats style.txt into an array that main.js reads
 def toArrFormat(file):
 	arr = []
 	with open(file) as f:
