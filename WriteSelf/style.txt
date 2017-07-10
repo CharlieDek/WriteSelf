@@ -220,9 +220,6 @@ span {
 
 
 
-
-
-
 /* 
  * Well that's the gist for today, I hope you
  * enjoyed watching this website.
@@ -236,9 +233,6 @@ span {
 .comment {
   color: rgb(175, 38, 75);
 }
-
-
-
 
 
 
