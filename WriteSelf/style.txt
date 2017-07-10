@@ -6,7 +6,7 @@
  * I did make this chill website that codes itself for you. Check it out!
  */ 
 
-span{
+span {
   color: rgb(33, 238, 89);
 }
 
