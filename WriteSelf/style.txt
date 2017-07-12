@@ -162,10 +162,9 @@ span {
  * believe that oversized, slanted text is a
  * design faux-pas.
  *
- * But a bold, opposing camp, led by a mysterious
- * leader, shrouded in mystery, believes that all 
- * principles can be sacrificed in service of a 
- * bit, regardless of the strength of that bit.
+ * But a bold, opposing camp believes that design 
+ * principles can be sacrificed in service of a bit
+ * as long as that bit is super funny and coherent.
  *
  * The battle rages on... 
  *
